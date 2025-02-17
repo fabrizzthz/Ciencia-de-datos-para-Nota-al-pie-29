@@ -16,6 +16,7 @@ import matplotlib.pyplot as plt
 ### Se realiza una predicción para el año 2025 y se imprime el resultado en la terminal. Este resultado incluye graficar los datos y las líneas de regresión lineal.
 # Ésto no tiene FrontEnd, es trabajo BackEnd (no hay interfaz gráfica como webs, sólo se imprime en la terminal), específicamente porque es para el análisis/ciencia de datos.
 # Esto quiere decir que se debe ejecutar en la terminal de Python o en un IDE de Python (o un compilador de Python en general).
+# Compilador en línea con soporte a librerías: https://www.mycompiler.io/es/new/python (sólo se debe copiar y pegar la totalidad del código)
 #######
 
 # DETALLES TÉCNICOS Y METODOLÓGICOS (saltar comentario si no interesa):
