@@ -25,6 +25,10 @@ import matplotlib.pyplot as plt
 # Se calcula la pendiente (slope) e intercepto de la regresión lineal para la matrícula total y de primer año.
 # Justificación de la regresión lineal: Sólo hay una única variable de predicción (año) y una única variable de respuesta (matrícula total o de primer año).
 # Se usa un modelo de regresión lineal dado que los datos están registrados en una tendencia lineal, por lo que una regresión lineal múltiple no sería adecuada 
+    ## Detalle IMPORTANTE: He importado los datos del MINEDUC para crear un dataset
+    ## formal de los datos de la carrera de filosofía. El jurado de filosofía
+    ## puede acceder mediante el siguiente link al dataset:
+    ## Recordar que el dataset y éste código están hechos para una nota al pie.
 
 #######
 # 1. Regresión Lineal y Predicción;
@@ -92,7 +96,6 @@ print(f"Disminución porcentual de matrícula primer año (2007-2024): {porcenta
 ########
 # 2. Visualización de datos y líneas de regresión;
 ########
-# Se utiliza Matplotlib para generar un gráfico manipulable de los datos y las líneas de regresión lineal.
 from sklearn.metrics import r2_score, mean_squared_error
 
 
@@ -136,7 +139,6 @@ plt.show()
 ########
 # 3. Evaluación del modelo. (r2 en relación a los datos generales, y no particulares, del Ministerio de Educación);
 ########
-
 pred_total_train = model_total.predict(X)
 r2_total = r2_score(matricula_total, pred_total_train)
 mse_total = mean_squared_error(matricula_total, pred_total_train)
