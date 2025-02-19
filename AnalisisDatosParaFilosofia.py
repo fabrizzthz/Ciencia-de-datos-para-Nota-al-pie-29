@@ -25,10 +25,31 @@ import matplotlib.pyplot as plt
 # Se calcula la pendiente (slope) e intercepto de la regresión lineal para la matrícula total y de primer año.
 # Justificación de la regresión lineal: Sólo hay una única variable de predicción (año) y una única variable de respuesta (matrícula total o de primer año).
 # Se usa un modelo de regresión lineal dado que los datos están registrados en una tendencia lineal, por lo que una regresión lineal múltiple no sería adecuada 
-    ## Detalle IMPORTANTE: He importado los datos del MINEDUC para crear un dataset
-    ## formal de los datos de la carrera de filosofía. El jurado de filosofía
-    ## puede acceder mediante el siguiente link al dataset:
-    ## Recordar que el dataset y éste código están hechos para una nota al pie.
+    ## DETALLE IMPORTANTE: Dado que no había un dataset formal, decidí yo crear uno. He importado los datos del MINEDUC para crear un dataset
+    ## formal de los datos de la carrera de filosofía. Se puede acceder mediante el siguiente link:
+    ## Recordar que el dataset y éste código están hechos para la nota al pie 29. 
+    ## Cito (nota al pie 29): "Nuestra insistencia interdisciplina radica en que: “Los conceptos filosóficos no deben buscar sólo ser leídos, deben buscar ser 
+    ## experimentados. La filosofía no debe entenderse aquí como algo utilitario de la ingeniería, o viceversa, sino que están posicionadas de forma complementaria y 
+    ## dialéctica. El papel filosófico no es meramente pedagógico [tampoco es un "decorado ético"], tal el transmutar conceptos a códigos, sino que es sostener mejores 
+    ## bases conceptuales, ante todo orientado a futuro. Y allí, los videojuegos, por ejemplo, no serían sólo una forma mediante la cual podrían desarrollarse 
+    ## herramientas pedagógicas, sino herramientas de ingeniería donde los conceptos filosóficos podrían llegar a experimentarse, teniendo bases físicas simuladas, y las 
+    ## ingenierías logrando desarrollar modelos filosóficos más sofisticados, teniendo bases ideales dentro de la simulación computacional. Manteniendo así, sí quiere decirse,
+    ## un enlace "físico-ideal sistémico".” (Fatoruzzo, 2025, en preparación, 1. De la aplicación filosófica en la ingeniería) Esto marca la orientación, quizá algo oculta, 
+    ## de las aspiraciones de nuestro trabajo a futuro (en una Sección III, de una Ingeniería de la Filosofía). Confiamos en que este diálogo no sólo es posible, sino que no 
+    ## requiere ‘reinventar la rueda’, ‘revolucionar la historia, etc; así como la filosofía seguirá siendo filosofía. Los modelos, tanto filosóficos como ingenieriles, ya 
+    ## están hechos. Confiamos en que, con algo de preparación mutua, pero sin un esfuerzo sobrehumano, puede implementarse mediante una preparación ingenieril en torno a la 
+    ## filosofía (Lógica Algorítmica, Ciencia de datos, Teoría de Sistemas, Teoría de Grafos, Lenguajes de programación, etc.) y una preparación filosófica en torno a la 
+    ## ingeniería (Filosofía de la Tecnología, Ontología, Epistemología, Lógica proposicional, Fenomenología, etc.). Considero que no hay cosa que pueda reinsertar en el 
+    ## mundo moderno de forma más eficaz a la filosofía que el diálogo interdisciplinar experimental y aplicativo: y, en especial, el diálogo con las ingenierías y la 
+    ## informática. Sin embargo, ello requiere que los filósofos desafiemos lo que actualmente se considera filosofía. Pero la filosofía de escritorio, 
+    ## “filosofía para filósofos”, la mera exégesis, “sobrefilosofía”, no provocará sino que condicionalmente continúe su situación crítica en la que cada estudiante de 
+    ## filosofía suele tener probabilidades absurdamente altas de abandonar esta fascinante disciplina. Los datos de la evolución histórica de matrículas de pregrado de 
+    ## filosofía, específicamente en esta universidad según los datos proporcionados por el MINEDUC, y según mis cálculos de datos en Python, indican que la matrícula total
+    ## disminuye en promedio 5.12 estudiantes por año, y la matrícula de primer año disminuye en promedio 1.99 estudiantes por año. La matrícula total ha disminuido 
+    ## aproximadamente un 62.93% desde 2007 hasta 2024 (y un 84.62% para las matrículas de primer año). La relación negativa determinada indica que existe una relación 
+    ## continua y descendente en la evolución de la matrícula de pregrado de Filosofía (lo cual se confirma al aplicarse un modelo de regresión lineal en el código). A largo 
+    ## plazo, la filosofía está en una situación crítica [en un periodo de 10 años, considerando que el promedio de estudiantes de Filosofía en los últimos 4 años es 53.5, y 
+    ## en 2024 el total fueron 43 estudiantes]. He aquí, pues, la raíz de mi insistencia. "
 
 #######
 # 1. Regresión Lineal y Predicción;
