@@ -10,7 +10,7 @@ from tabulate import tabulate
 # Éste código calcula la regresión lineal para la matrícula total y de primer año de estudiantes de filosofía en la Universidad Alberto Hurtado (UAH) desde 2007 hasta 2024.
 # El objetivo es predecir la matrícula total y de primer año para el año 2025. Asimismo, ver cómo ha variado la matrícula total y de primer año en el tiempo.
 # Y también calcular la disminución de la matrícula total y de primer año, y realizar una predicción 
-# Y asú saber si la carrera de filosofía en la UAH está en peligro o, incluso, si se podría cerrar la carrera en un futuro de 10-15 años y sostener que la filosofía está en crisis a largo plazo. 
+# Y así saber si la carrera de filosofía en la UAH está en peligro o, incluso, si se podría cerrar la carrera en un futuro de 10-15 años y sostener que la filosofía está en crisis a largo plazo. 
 
 #######
 # IMPORTANTE: Todo éste cálculo está dedicado a la nota al pie número 29. 
