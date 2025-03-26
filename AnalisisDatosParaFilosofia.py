@@ -21,7 +21,10 @@ from tabulate import tabulate
 ### También permite ver el gráfico según todos los años utilizados
 # Ésto no tiene FrontEnd, es trabajo BackEnd (no hay interfaz gráfica como webs, sólo se imprime en la terminal), específicamente porque es para el análisis/ciencia de datos.
 # Esto quiere decir que se debe ejecutar en la terminal de Python o en un IDE de Python (o un compilador de Python en general).
-# Compilador en línea con soporte a librerías: https://www.mycompiler.io/es/new/python (sólo se debe copiar y pegar la totalidad del código)
+# Compilador en línea con soporte a librerías de Python:
+# Para nota al pie 29: https://python-fiddle.com/examples/seaborn
+# Para Nota al pie 31: https://www.mycompiler.io/es/new/python 
+# (sólo se debe copiar y pegar la totalidad del código)
 #######
 
 # DETALLES TÉCNICOS Y METODOLÓGICOS (saltar comentario si no interesa):
